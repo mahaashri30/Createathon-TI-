@@ -2,39 +2,42 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+   
     background-color: #f8f9fa;
     color: #333;
 }
 header {
-    background-color: #ddbea9;
-    color: #ffffff7a;
+    background-color:#ddbea9;
+    background-image: url(images/headerbgimg.webp);
+    color: #545848;
     padding: 1rem;
     text-align: center;
+    font-size: 40px;
 }
 nav {
     display: flex;
     justify-content: center;
-    background-color: #ddbea9;
+    background-color: #d5b198;
     padding: 0.5rem;
 }
 nav a {
-    color: #59414180;
+    color:#6b705c;
     text-decoration: none;
     margin: 0 1rem;
     padding: 0.5rem;
-    font-family: 'Pacifico';
-    font-size: larger;
+    font-style:italic;
+    font-size: 25px;
     /*background-color: darkred;*/
 }
 nav a:hover {
-    background-color: #6c757d;
+    background-color:#e7c4a5;
     border-radius: 5px;
 }
 .container {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: #fff;
+    background-color:#ffe8d6;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .post {
@@ -42,14 +45,15 @@ nav a:hover {
 }
 .post-title {
     font-size: 1.5rem;
-    color: #007bff;
+    color:#aa3b08 ;
     margin-bottom: 0.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman' ;
 }
 .post-snippet {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    font-family: cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
 }
 .post-date {
     font-size: 0.875rem;
@@ -99,4 +103,59 @@ section {
     background: rgba(255, 255, 255, 0.8);             
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.contact-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #aa3b08;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.contact-form button {
+    background-color: #cb997e;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ec203b;
+}
+
+footer {
+    background-color: #ddbea9;
+    padding: 30px 20px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
 }
