@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+header {
+    background-color: #ddbea9;
+    color: #ffffff7a;
+    padding: 1rem;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ddbea9;
+    padding: 0.5rem;
+}
+nav a {
+    color: #59414180;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    font-family: 'Pacifico';
+    font-size: larger;
+    /*background-color: darkred;*/
+}
+nav a:hover {
+    background-color: #6c757d;
+    border-radius: 5px;
+}
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.post {
+    margin-bottom: 2rem;
+}
+.post-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman' ;
+}
+.post-snippet {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: cursive;
+}
+.post-date {
+    font-size: 0.875rem;
+    color: #6c757d;
+    font-family: Georgia, serif;
+}
+.comment-section {
+    margin-top: 2rem;
+}
+.comment-section h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.comment {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+.comment p {
+    margin: 0.5rem 0;
+}
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.comment-form textarea {
+    resize: none;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.comment-form button {
+    padding: 0.5rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.comment-form button:hover {
+    background-color: #0056b3;
+}
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);             
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
